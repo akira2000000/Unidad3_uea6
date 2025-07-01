@@ -9,5 +9,5 @@ function setup() {
 
 function draw() {
   background(220);
-  imageMode(captura, 0, 0, CENTER);
+  image(captura, 0, 0, windowWidth, windowHeight);
 }
