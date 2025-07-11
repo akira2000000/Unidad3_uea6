@@ -5,18 +5,33 @@
 }
 
 body {
-    background-color: rgb(236, 217, 191);
-#p{color:rgb(165, 41, 10);
+    background-color: rgb(236, 191, 204);
+    #p{color:rgb(165, 41, 10);
     font-size: 60px;
     text-align: center;}
+    #a{
+    font-size: 20px;
+    text-align: center;
+    margin: 20px auto;}
 }
 
 .parrafo {
     margin: 20px auto;
-    max-width: 700px;
-    background-color: #fff0f5;
+    max-width: 1000px;
+    background-color: #f5f5f5;
     padding: 20px;
     border-radius: 10px;
     font-size: 1.1em;
     line-height: 1.6;
 }
+
+.izquierda {
+    background-color: rgb(250, 239, 226);
+    margin: 20px auto;
+    max-width: 1000px;
+    padding: 20px;
+    border-radius: 10px;
+    font-size: medium;
+    line-height: 1.6;
+}
+
