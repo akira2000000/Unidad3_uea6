@@ -1,37 +1,102 @@
 * {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 body {
-    background-color: rgb(236, 191, 204);
-    #p{color:rgb(165, 41, 10);
-    font-size: 60px;
-    text-align: center;}
-    #a{
-    font-size: 20px;
-    text-align: center;
-    margin: 20px auto;}
+  background-color: #fff0f8;
+background-image:  url('assets/fondo4.jpg');;
+  color: #4d0039;
+  font-family: 'Comic Sans MS', cursive, sans-serif;
+  padding: 40px 20px;
+  text-align: center;
+  cursor: url('https://cur.cursors-4u.net/cursors/cur-9/cur810.cur'), auto;
 }
 
+/* Título Principal */
+#p {
+  color: #ff66a3;
+  font-size: 54px;
+  text-shadow: 2px 2px #fff, 3px 3px #ffcce6;
+  margin-bottom: 30px;
+  border: 3px double #ff99cc;
+  display: inline-block;
+  padding: 10px 30px;
+  border-radius: 30px;
+  background: linear-gradient(to right, #ffe6f0, #ffd6eb);
+  box-shadow: 0 0 12px #ffcce6;
+  transition: all 0.3s ease;
+}
+
+#p:hover {
+  transform: scale(1.03);
+}
+
+/* Párrafo largo */
+#a {
+  font-size: 18px;
+  text-align: center;
+  margin: 30px auto;
+  padding: 25px;
+  max-width: 850px;
+  background: #fff7fb;
+  color: #4d004d;
+  border: 2px dashed #ff99cc;
+  border-radius: 20px;
+  box-shadow: 0 0 12px #ffccdd;
+  transition: background 0.4s;
+}
+
+#a:hover {
+  background: #ffeef7;
+}
+
+/* Párrafo principal */
 .parrafo {
-    margin: 20px auto;
-    max-width: 1000px;
-    background-color: #f5f5f5;
-    padding: 20px;
-    border-radius: 10px;
-    font-size: 1.1em;
-    line-height: 1.6;
+  margin: 25px auto;
+  max-width: 900px;
+  background-color: #ffe4ee;
+  padding: 25px;
+  border-radius: 20px;
+  font-size: 1.1em;
+  line-height: 1.6;
+  border: 2px solid #ffb6c1;
+  box-shadow: 2px 2px 10px #ffcce6;
 }
 
-.izquierda {
-    background-color: rgb(250, 239, 226);
-    margin: 20px auto;
-    max-width: 1000px;
+/* Créditos de autoras */
+.nombres {
+  background-color: #fff0f5;
+  margin: 25px auto;
+  max-width: 700px;
+  padding: 20px;
+  border-radius: 20px;
+  font-size: medium;
+  line-height: 1.6;
+  border: 2px dotted #ff99cc;
+  box-shadow: inset 0 0 10px #ffe6f2;
+}
+
+/* Enlaces (por si los agregas) */
+a {
+  color: #cc3399;
+  text-decoration: underline;
+}
+
+a:hover {
+  color: #ff66cc;
+}
+
+/* Glitter decorativos */
+.glitter-header img,
+.glitter-footer img {
+  height: 50px;
+  margin: 15px auto;
+}
+
+.imgen1 {background-color: rgb(255, 127, 227);
     padding: 20px;
-    border-radius: 10px;
     font-size: medium;
-    line-height: 1.6;
-}
-
+    float:left;
+    width:31%;}
