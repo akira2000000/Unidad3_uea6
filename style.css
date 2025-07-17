@@ -5,14 +5,15 @@
 }
 
 body {
-  background-color: #fff0f8;
-background-image:  url('assets/fondo4.jpg');;
+  background-image: url('assets/fon.jpg'); /* Cambia la URL por tu imagen de fondo */
+  background-size: cover;
+  background-position: center;
   color: #4d0039;
   font-family: 'Comic Sans MS', cursive, sans-serif;
   padding: 40px 20px;
   text-align: center;
-  cursor: url('https://cur.cursors-4u.net/cursors/cur-9/cur810.cur'), auto;
 }
+
 
 /* Título Principal */
 #p {
@@ -96,6 +97,12 @@ a:hover {
 }
 
 .imgen1 {background-color: rgb(255, 127, 227);
+    padding: 20px;
+    font-size: medium;
+    float:left;
+    width:31%;}
+
+.imgen2 {background-color: rgb(255, 127, 227);
     padding: 20px;
     font-size: medium;
     float:left;
